@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shuttleworth College IMS Login</title>
+	<script src="https://kit.fontawesome.com/f1972f0654.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<style>
+body{
+	background: url(Background.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+div.loginHeader {
+	text-align: center;
+}
+div.loginHeader{
+	margin-bottom: 60px;
+}
+div.loginHeader h1{
+	font-size: 100px;
+	color: #f685a2;
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+div.loginHeader p{
+	color: #ffdae3;
+	font-size: 50px;
+	margin: 0px;
+	text-transform: uppercase;
+	display: inline-block;
+	font-family: arial;
+}
+div.loginHeader p:after {
+	content: '';
+	display: block;
+	height: 5px;
+	background: #f685a2;
+	margin:0 auto;
+}
+div.loginBody form{
+	margin: 0 auto;
+	width: 450px;
+	background: rgba(0,0,0,.5);
+	padding: 50px;
+	border: 2px solid #fff;
+	border-radius: 8px;
+}
+div.loginInputsContianer{
+	margin-top: 20px;
+}
+div.loginInputsContainer label{
+	display: block;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+div.loginInputsContainer input{
+	height: 30px;
+	width: 100%;
+	border: 2px solid #d40339;
+	font-size: 20px;
+	padding: 5px;
+	text-align: left;
+}
+div.loginButtonContainer {
+	margin-top: 40px;
+	text-align: center; 
+}
+div.loginButtonContainer button {
+	font-size: 20px;
+	padding: 10px 30px;
+	background: #f685a2;
+	border:none;
+	color: #fff;
+	border-radius: 5px;
+}
+	
+</style>
+	<div class="container">
+		<div class="loginHeader">
+			<h1>Shuttleworth College IMS</h1>
+			<p>Inventory Management System</p>
+		</div>
+		<div class="loginBody">
+			<form action="">
+				<div class="loginInputsContainer">
+					<label for="">Username:</label>
+					<input type="text" placeholder="Username" />
+				</div>
+				<div class="loginInputsContainer">
+					<label for="">Password:</label>
+					<input type="password" placeholder="Password" />
+				</div>
+				<div class="loginButtonContainer">
+					<button>login     <i class="fas fa-sign-in-alt"></i></button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
